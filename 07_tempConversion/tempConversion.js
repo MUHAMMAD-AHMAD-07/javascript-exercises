@@ -1,6 +1,6 @@
 const convertToCelsius = function(temperature) {
   let tempInCelsius = 5/9 * (temperature-32);
-  return parseFloat(tempInCelsius.toFixed(1));
+  return parseFloat(tempInCelsius.toFixed(1)); //toFixed return the string.
 };
 
 const convertToFahrenheit = function(temperature) {
