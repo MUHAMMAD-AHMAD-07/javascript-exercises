@@ -1,7 +1,7 @@
 const leapYears = function(yearToCheck) {
     if(yearToCheck % 100 == 0){
         if(yearToCheck % 400 == 0){ //If its divisible by 100 then it must
-            return true;           // also divisible by 400
+            return true;           // also be divisible by 400
         }
             return false;
     }
